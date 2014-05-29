@@ -1,0 +1,1 @@
+C code for computing the PDE evolution for the Local Phase Level Set used by sephaCe. Jointly written by Rehan Ali and Mark Gooding, based on code written by Mark Gooding (http://www.robots.ox.ac.uk/~gooding/) during his DPhil thesis.
