@@ -3,7 +3,7 @@
 
 *sephaCe* is a Matlab/C-based application for automatically segmenting biological cell boundaries and nuclei using only brightfield microscopy image data. The official Github repo is at https://github.com/bobbyali/sephace . The literature describing *sephaCe* are:
 
-* "Automatic segmentation of adherent biological cell boundaries and nuclei from brightfield microscopy images", Machine Vision and Applications, 2011 ([link](http://link.springer.com/article/10.1007/s00138-011-0337-9#page-1))
+* "Automatic segmentation of adherent biological cell boundaries and nuclei from brightfield microscopy images", Machine Vision and Applications, 2011 ([journal page](http://link.springer.com/article/10.1007/s00138-011-0337-9#page-1))([pdf](http://users.ox.ac.uk/~atdgroup/publications/Ali,%20R.,%20Computer%20Science%202011%20.pdf))
 * "On the Use of Low-Pass Filters for Image Processing with Inverse Laplacian Models", Journal of Mathematical Vison and Imaging, 2011 ([link](http://link.springer.com/article/10.1007/s10851-011-0299-6))
 
 The main application is in the Main folder. To start, load the "segment_tool.m" script in Matlab. Full instructions are in the "README.TXT" file. Note that the main application has several dependencies on 3rd party and compiled C code. It was developed and tested on a 32 bit Windows XP laptop. If you need to run it on a different platform, you'll need to recompile the binaries in the "To Compile" folder, and obtain binaries for the 3rd party libraries in the "3rd Party Libs" folder.
